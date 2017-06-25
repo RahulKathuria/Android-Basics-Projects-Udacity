@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="note">Note: Questions can have multiple answers also.</string>
+    <string name="q1">1. Who is the current Prime Minister of India?</string>
+    <string name="q2">2. Which among the following is the capital of India?</string>
+    <string name="q3">3. Which among the following are the Union Territories of India?</string>
+    <string name="q4">4. How many states are there in India?</string>
+    <string name="q5">5. Name the largest state of India(Area wise)?</string>
+    <string name="album_description">Enter your answer here.</string>
+    <string name="new_delhi">New Delhi</string>
+
+</resources>
