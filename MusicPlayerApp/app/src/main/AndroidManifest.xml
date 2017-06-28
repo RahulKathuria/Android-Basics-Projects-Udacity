@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicplayerapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Music Player App"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NowPlaying"
+            android:label="Now Playing"
+            />
+        <activity android:name=".Artist"
+            android:label="@string/artist"/>
+        <activity android:name=".Albums"
+            android:label="@string/albums"/>
+        <activity android:name=".Tracks"
+            android:label="@string/tracks"/>
+        <activity android:name=".Favourites"
+            android:label="@string/favourites"></activity>
+    </application>
+
+</manifest>

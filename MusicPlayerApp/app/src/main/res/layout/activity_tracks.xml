@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayerapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This activity shows all the tracks of the music player" />
+
+    <TextView
+        android:id="@+id/NowPlaying"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:text="Ae dil hai mushkil"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/white"
+        android:text="Closer"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/Home"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:text="Animals"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/favourites"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/white"
+        android:text="Blood Money"
+        android:textColor="@color/black" />
+
+</LinearLayout>

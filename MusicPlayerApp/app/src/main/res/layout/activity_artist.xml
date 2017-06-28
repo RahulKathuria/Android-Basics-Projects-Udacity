@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayerapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This activity shows the all the artists" />
+
+    <TextView
+        android:id="@+id/NowPlaying"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:text="Amrindar Gill"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/home"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/white"
+        android:text="Eminem"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:text="Rahat Fateh Ali Khan"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tracks"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/white"
+        android:text="Rahul Kathuria"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/favourites"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:text="Rachit Bhutani"
+        android:textColor="@color/white" />
+</LinearLayout>

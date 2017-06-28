@@ -1,0 +1,8 @@
+<resources>
+    <string name="home">Home</string>
+    <string name="albums">Albums</string>
+    <string name="artist">Artists</string>
+    <string name="favourites">Favourites</string>
+    <string name="tracks">Tracks</string>
+    <string name="nowPlaying">Now Playing</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicplayerapp.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This PAge shows all the contents of a Music Player App"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/NowPlaying"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/nowPlaying" />
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/artist"
+        android:onClick="openNumbersList"
+        android:layout_toRightOf="@id/NowPlaying"/>
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/albums"
+        android:layout_below="@id/NowPlaying"/>
+    <TextView
+        android:id="@+id/favourites"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="@string/favourites"
+
+        android:layout_below="@id/albums"
+
+        />
+
+    <TextView
+        android:id="@+id/tracks"
+        style="@style/MusicPlayerStyles"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/tracks"
+        android:layout_below="@id/albums"
+        android:layout_toRightOf="@id/favourites"/>
+
+
+
+</LinearLayout>
