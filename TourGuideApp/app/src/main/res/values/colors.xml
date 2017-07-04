@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <color name="primary_color">#4A312A</color>
+    <color name="colorAccent">#11ff25</color>
+    <color name="colorPrimary">#2F1D1A</color>
+    <color name="colorPrimaryDark">#2F1D0A</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="category_monuments">#FD8E09</color>
+    <color name="category_markets">#379237</color>
+    <color name="category_temples">#8800A0</color>
+    <color name="category_museum">#16AFCA</color>
+</resources>

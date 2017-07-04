@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/monuments"
+        style="@style/CategoryStyle"
+        android:background="@color/category_monuments"
+        android:text="@string/category_monuments" />
+    <TextView
+        android:id="@+id/museum"
+        style="@style/CategoryStyle"
+        android:background="@color/category_museum"
+        android:text="@string/category_museum" />
+    <TextView
+        android:id="@+id/markets"
+        style="@style/CategoryStyle"
+        android:background="@color/category_markets"
+        android:text="@string/category_markets" />
+    <TextView
+        android:id="@+id/temples"
+        style="@style/CategoryStyle"
+        android:background="@color/category_temples"
+        android:text="@string/category_temples" />
+
+
+</LinearLayout>

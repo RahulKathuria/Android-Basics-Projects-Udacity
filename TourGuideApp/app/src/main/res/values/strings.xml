@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="category_monuments">Monuments</string>
+    <string name="category_resorts">Resorts</string>
+    <string name="category_museum">Museum</string>
+    <string name="category_markets">Markets</string>
+    <string name="category_temples">Temples</string>
+    <string name="canaught">Connaught Palace</string>
+    <string name="Chandni">Chandni Chowk</string>
+    <string name="Palika">Palika Bazar</string>
+    <string name="Kipps">Kipps Market</string>
+    <string name="red_fort">Red Fort</string>
+    <string name="qutub">Qutub Minar</string>
+    <string name="India">India Gate</string>
+    <string name="Rail">National Rail Museum</string>
+    <string name="gallery">National Gallery of Modern Art</string>
+    <string name="smriti">Gandhi Smriti</string>
+    <string name="force">National Air Force Museum</string>
+    <string name="lotus">Lotus Temple</string>
+    <string name="Jama">Jama Masjid</string>
+    <string name="sahib">Bangla Sahib</string>
+    <string name="akshardham">Akshardham</string>
+</resources>
