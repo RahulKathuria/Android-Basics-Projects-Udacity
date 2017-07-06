@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BookListing</string>
+    <string name="author">Author</string>
+    <string name="title">Title</string>
+    <string name="publishDate">Publish Date</string>
+    <string name="publisher">Publisher</string>
+    <string name="search">Search Book</string>
+    <string name="editText">Enter your query here</string>
+    <string name="eTag">ETag</string>
+    <string name="url"><![CDATA[\"https://www.googleapis.com/books/v1/volumes?maxResults=50&q=\"]]></string>
+</resources>
