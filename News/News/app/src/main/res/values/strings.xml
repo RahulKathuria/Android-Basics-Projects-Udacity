@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="id">id</string>
+    <string name="sectionId">sectionId</string>
+    <string name="sectionName">sectionName</string>
+    <string name="webTitle">webTitle</string>
+    <string name="date">date</string>
+</resources>
